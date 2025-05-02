@@ -33,5 +33,4 @@ public class RabbitMQPublisher {
         rabbitTemplate.convertAndSend(exchange,sendS2RoutingKey,message);
     }
 
-
 }
